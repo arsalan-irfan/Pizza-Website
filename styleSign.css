@@ -1,0 +1,97 @@
+*{
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+    screen - layou
+*/
+body,html{
+    height: 100%;
+    width: 100%;
+    background: url('pizzaImage/signinBackground.jpg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+
+}
+.nav-link .navbar-brand{
+    color: black !important;
+}
+
+
+.navbar-brand{
+    font-size: 3vw !important;
+    text-decoration:none;
+    color: wheat;
+}
+
+.nav-link{
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: black;    
+}
+.navbar-brand:hover{
+    color:   #b68b2d;
+}
+.nav-link:hover{
+    color: #b68b2d;
+}
+.specialButton{
+    height: 40px;
+    color: black;
+    background-color: transparent; 
+    border-color: black;
+    font-family: Cormorant;
+    margin-right:10px;
+    margin-left: 10px;
+    width: 100px;
+}
+.specialButton:hover{
+    color:  #b68b2d;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+}
+.loginBox{
+    background-color:white; 
+    border: #b68b2d solid;
+    padding:20px;
+}
+.login{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+.buttons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.avatar{
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    margin-left: 40%;
+    bottom: 20px;    
+}
+.radioButton{
+    margin-left: 15px;
+    font-weight: 100px;
+}
+.summary{
+    color: red;
+    font-weight: bold;
+    margin:10px;
+}
+.summary1{
+    color:#b68b2d;
+    font-weight: bold;
+    margin:10px;
+}

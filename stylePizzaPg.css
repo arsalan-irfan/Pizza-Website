@@ -1,0 +1,187 @@
+*{
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+    screen - layou
+*/
+body,html{
+    height: 100%;
+    width: 100%;
+    background: url('vegePizza/Background.jpg');
+    background-position: 0% 9%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.nav-link .navbar-brand{
+    color: black !important;
+}
+
+
+.navbar-brand{
+    font-size: 3vw !important;
+    text-decoration:none;
+    color: wheat;
+}
+
+.nav-link{
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: black;    
+}
+.navbar-brand:hover{
+    color:   #b68b2d;
+}
+.nav-link:hover{
+    color: #b68b2d;
+}
+/* .navbar
+{
+    background-color: cornsilk !important;
+} */
+.specialButton{
+    height: 40px;
+    color: black;
+    background-color: transparent; 
+    border-color: black;
+    font-family: Cormorant;
+}
+.specialButton:hover{
+    color:  #b68b2d;
+    background-color: black;
+}
+.gridContent{
+    color: #b68b2d;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom:60px;
+    text-decoration-line:black ;
+}
+.card-img-top{
+    height: 300px;
+    width:200px
+}
+.card-title,.card-text{
+    text-align: center;
+}
+.btn-info{
+    margin-left:130px;
+}
+.txtButton{
+    font-size: 13px;
+    font-weight: bold;
+    color: #b68b2d;
+    text-align: center;
+}
+.rateList{
+    font-weight: bold;
+    text-transform: capitalize;
+    border-top: solid red ;
+    border-bottom: solid red;
+    color: green;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+}
+.text1{
+    font-weight: bold;
+    font-size: 85%;
+    text-align: center;
+}
+.text2{
+    font-weight: bold;
+    font-size: 85%;
+    text-align: center
+}
+.wishlistButton{
+    text-align: right;
+    margin-right:10px 
+}
+.totalNavBar{
+    background-color:rgb(0, 132, 255);
+    color:white;
+    font-weight: bold;
+    padding: 5px    
+}
+.number{
+    background-color:blue !important;
+    border: 1px inset grey;
+    padding: 5px; 
+}
+.totalNavBarText,totalNavBarText1{
+    margin-top:5px; 
+}
+.tableImage{
+    height:7%;
+    width:100%;
+    padding: 5px;
+}
+.tableElements{
+    padding: 10px;
+    border: 1px ridge black;
+}
+.tableButton{
+    padding: 5px;
+}
+.tableImage{
+    width:100%;
+    height:10%;
+    padding: 0px 
+}
+.tableElements{
+    border: 1px ridge black;
+}
+.tableText1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50%;
+}
+.tableButton{
+    padding: 10px;
+}
+.billHeading{
+    color: red;
+    font-weight: bold;
+}
+.footerElements{
+    color: green;
+    font-weight: bold;
+    
+}
+.customer{
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #b68b2d;
+}
+totalNavBarText1{
+    text-align: right;
+    margin-right: 0;
+}
+.tableHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b68b2d;
+}
+.wishlist{
+    background-color:rgb(145, 22, 22);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    border-color: red;
+}
+.menuButton{
+    margin-left:35%;
+    margin-right:65%;
+}

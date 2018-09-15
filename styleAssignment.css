@@ -1,0 +1,33 @@
+*{
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-image: url('pizzaImage/assignment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.assignmentBox{
+    background-color: lightsteelblue;
+    opacity: 0.75;
+    font-weight: bold;
+    padding: 20px;
+    }
+.specialButton{
+    height: 40px;
+    color: black;
+    background-color: transparent; 
+    border-color: black;
+    font-family: Cormorant;
+}
+.specialButton:hover{
+    color:  #b68b2d;
+    background-color: black;
+}
+.links{
+    
+}
